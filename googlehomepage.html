@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+           .google-image {
+            display: block;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin-top: 175px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 40%;
+            height: auto;
+           }
+           
+           button {
+            display: inline-block;
+            text-align: center;
+            padding: 10px 15px 10px 15px;
+            margin: 15px 8px;
+            background-color: #f8f9fa;
+            border: 1px solid #f8f9fa;
+            color: #3c4043;
+           }
+           #center {
+            display: flex;
+            justify-content: center;
+           }
+
+           #searchbar {
+            display: flex;
+            justify-content: center;
+            margin-right: 15px;
+            margin-bottom: 20px;
+            margin-top: 15px;
+            width: auto;
+            height: 30px;
+            -webkit-appearance: none;
+           }
+
+           .navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 10px;
+            position: fixed;
+            top: 0;
+            width: 95%;
+           }
+
+           li {
+            float: left;
+           }
+
+           a {
+            display: block;
+            padding: 8px;
+           }
+
+           a:link {
+            text-decoration: none;
+            color: #222;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+           }
+
+           footer {
+            list-style-type: none;
+            margin: 0;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 95%;
+            background-color: #F2F2F2; 
+            color: #70757a;
+           }
+
+           .logo-image{
+            display: flex;
+            width: 46px;
+            top: 0;
+            height: 46px;
+            border-radius: 50%;
+            overflow: hidden;
+            float: right;
+           }
+        </style>
+    </head>
+   
+    <!--figure out how to inline the google chrome icon-->
+    
+    <body>
+        <nav>
+            <ul class="navbar">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Store</a></li>
+                <li style="float:right"><a href="#">Gmail</a></li>
+                <li style="float:right"><a href="#">Images</a></li>
+                <li style="float:right"><a href="/"><div class="logo-image">
+                    <img src="https://lh3.googleusercontent.com/ogw/ADGmqu9mgmU5BJc95sQKl3m36hpczPW9VsUx6a1_N8lx1w=s64-c-mo" class="img-fluid">
+              </div></a></li>
+            </ul>
+        
+        </nav>
+        <div>
+            <img class="google-image" src=https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png>
+        </div>
+        <form role="search" id="searchbar">
+            <input type="search" name="searchbar" >
+            
+        </form>
+        <div id="center">
+            <button type="button">Google Search</button>
+            <button type="button">I'm Feeling Lucky</button>
+        </div>
+        <footer style="color: #70757a;">
+            <li style="float:left"><a href="#">Advertising</a></li>
+            <li style="float:left"><a href="#">Business</a></li>
+            <li style="float:left"><a href="#">How Search Works</a></li>
+            <li style="float:right"><a href="#">Privacy</a></li>
+            <li style="float:right"><a href="#">Terms</a></li>
+            <li style="float:right"><a href="#">Settings</a></li>
+        </footer>
+    </body>
+</html>
